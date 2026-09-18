@@ -1,0 +1,12 @@
+{
+  "name": "devflow",
+  "version": "1.0.0",
+  "description": "A context-aware task manager for developers. Zero dependencies, runs from a single file.",
+  "scripts": {
+    "test": "node test/verify.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "keywords": ["task-manager", "developer-tools", "pomodoro", "context-switching", "kanban"],
+  "license": "MIT",
+  "devDependencies": { "playwright": "^1.40.0" }
+}
